@@ -4,33 +4,294 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+    <script src="https://unpkg.com/feather-icons"></script>
     <title>Document</title>
 </head>
 
 <body>
-
+    <!-- NAVBAR -->
     <nav>
         <header class="nav-container">
-            <div>Ini gambar</div>
+            <img src="./assets/logo-main.png" alt="">
         </header>
         <section class="nav-item-container">
             <div class="nav-item">Home</div>
-            <div class="nav-item">Our Package</div>
-            <div class="nav-item">Call Us</div>
+            <div class="nav-item">Product</div>
+            <div class="nav-item">Log in</div>
+            <i data-feather="shopping-cart" class="cart"></i>
         </section>
     </nav>
+    <!-- NAVBAR END -->
+
+    <!-- CONTENT -->
+    <article>
+        <header class="title">
+            <h1>SELAMAT DATANG DI SHOPPER!</h1>
+        </header>
+        <p class="p1">Apa Yang Kamu Butuhkan Hari Ini?</p>
+    </article>
+
     <main>
-        <article class="title">
-            <header>
-                <h1>Hello World!</h1>
-            </header>
-            <p>lorem ipsum</p>
+        <article class="main-container">
+            <section>
+                <div class="image-container"></div>
+                <div class="text-banner">
+                    <p>Ambil Voucher Gratis Ongkir Dengan Cara Login Hari Ini!</p>
+                    <p>Nikmati Belanja Tanpa Harus Mikir Ongkir</p>
+                </div>
+            </section>
+
+            <section class="form-login">
+                <form action="">
+                    <h1>LOGIN</h1>
+                    <div class="input-box">
+                        <input type="text" placeholder="Username/No Telp" required>
+                    </div>
+                    <div class="input-box">
+                        <input type="password" placeholder="Password" required>
+                    </div>
+                    <button type="submit" class="btn-login">Log in Now!</button>
+                    <div class="forgot">
+                        <p>Lupa Password</p>
+                        <p>Log in dengan no handphone</p>
+                    </div>
+                    <p class="or">Atau Log in dengan</p>
+                    <div class="logo-login">
+                        <img src="./assets/Google.png" alt="" style="width: 30px;">
+                        <p>Continue with Google</p>
+                    </div>
+                    <div class="logo-login">
+                        <img src="./assets/Facebook.png" alt="" style="width: 35px;">
+                        <p>Continue with Facebook</p>
+                    </div>
+                    <div class="logo-login">
+                        <img src="./assets/Twitter.png" alt="" style="width: 30px;">
+                        <p>Continue with Twitter</p>
+                    </div>
+                    <div class="logo-login">
+                        <img src="./assets/Tiktok.png" alt="" style="width: 30px;">
+                        <p>Continue with TikTok</p>
+                    </div>
+                </form>
+            </section>
         </article>
     </main>
+    <!-- CONTENT END -->
+
+    <!-- PRODUCT -->
+    <section id="product">
+        <div class="list-product">
+            <div class="item">
+                <p>198 Terjual</p>
+                <img src="./assets/JamTangan.png" alt="">
+                <h2>Jam Tangan Harington</h2>
+                <div class="price">Rp 5.349.000</div>
+                <button class="btn-add">Beli Sekarang</button>
+            </div>
+            <div class="item">
+                <p>409 Terjual</p>
+                <img src="./assets/Kamera.png" alt="" class="img2">
+                <h2>Kamera Cannon 5D</h2>
+                <div class="price">Rp 9.800.000</div>
+                <button class="btn-add">Beli Sekarang</button>
+            </div>
+            <div class="item">
+                <p>271 Terjual</p>
+                <img src="./assets/Tas.png" alt="" class="img3">
+                <h2>Tas High and Up</h2>
+                <div class="price">Rp 4.599.000</div>
+                <button class="btn-add">Beli Sekarang</button>
+            </div>
+            <div class="item">
+                <p>29 Terjual</p>
+                <img src="./assets/Sepeda.png" alt="" class="img4">
+                <h2>Sepeda Mountain Lord</h2>
+                <div class="price">Rp. 18.999.999</div>
+                <button class="btn-add">Beli Sekarang</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="product-2">
+        <div class="list-product">
+            <div class="item">
+                <p>9,6RB Terjual</p>
+                <img src="./assets/BodyCare.png" alt="" class="img5">
+                <h2>Body Care by Human</h2>
+                <div class="price">Rp 1.450.000</div>
+                <button class="btn-add">Beli Sekarang</button>
+            </div>
+            <div class="item">
+                <p>503 Terjual</p>
+                <img src="./assets/Jaket.png" alt="" class="img6">
+                <h2>Jaket Kulit J&L</h2>
+                <div class="price">Rp 2.500.000</div>
+                <button class="btn-add">Beli Sekarang</button>
+            </div>
+            <div class="item">
+                <p>96 Terjual</p>
+                <img src="./assets/Kursi.png" alt="" class="img7">
+                <h2>Kursi Ikaya</h2>
+                <div class="price">Rp 596.000</div>
+                <button class="btn-add">Beli Sekarang</button>
+            </div>
+            <div class="item">
+                <p>1RB Terjual</p>
+                <img src="./assets/Tumbler.png" alt="" class="img8">
+                <h2>Tumbler by Hingki</h2>
+                <div class="price">Rp 199.000</div>
+                <button class="btn-add">Beli Sekarang</button>
+            </div>
+        </div>
+    </section>
+    <!-- PRODUCT END -->
+
+    <!-- FOOTER -->
+    <footer id="footer">
+        <section class="content-footer">
+            <div class="for-customer">
+                <h1>Layanan Pelanggan</h1>
+                <div>
+                    <p>Bantuan</p>
+                    <p>Metode Pembayaran</p>
+                    <p>Gratis Ongkir</p>
+                    <p>Lacak Pesanan</p>
+                    <p>Lacak Pengiriman</p>
+                    <p>Pengembalian Barang</p>
+                    <p>Garansi Barang</p>
+                    <p>Hubungi Kami</p>
+                </div>
+            </div>
+            <div>
+                <h1>Pembayaran</h1>
+                <div class="payments">
+                    <div class="logo-payments">
+                        <img src="./assets/bca.png" alt="">
+                    </div>
+                    <div class="logo-payments">
+                        <img src="./assets/bri.png" alt="">
+                    </div>
+                    <div class="logo-payments">
+                        <img src="./assets/bni.png" alt="">
+                    </div>
+                    <div class="logo-payments">
+                        <img src="./assets/bsi.png" alt="">
+                    </div>
+                </div>
+                <div class="payments-2">
+                    <div class="logo-payments">
+                        <img src="./assets/mandiri.png" alt="">
+                    </div>
+                    <div class="logo-payments">
+                        <img src="./assets/permata.png" alt="">
+                    </div>
+                    <div class="logo-payments">
+                        <img src="./assets/alfamart.png" alt="">
+                    </div>
+                    <div class="logo-payments">
+                        <img src="./assets/alfamidi.png" alt="">
+                    </div>
+                </div>
+                <div class="payments-3">
+                    <div class="logo-payments">
+                        <img src="./assets/indomaret.png" alt="">
+                    </div>
+                    <div class="logo-payments">
+                        <img src="./assets/cimbniaga.png" alt="">
+                    </div>
+                    <div class="logo-payments">
+                        <img src="./assets/visa.png" alt="">
+                    </div>
+                </div>
+                <h1 class="h1-send">Pengiriman</h1>
+                <div class="send">
+                    <div class="sender">
+                        <div class="logo-sender">
+                            <img src="./assets/jnt.png" alt="">
+                        </div>
+                    </div>
+                    <div class="sender">
+                        <div class="logo-sender">
+                            <img src="./assets/kargo.png" alt="">
+                        </div>
+                    </div>
+                    <div class="sender">
+                        <div class="logo-sender">
+                            <img src="./assets/jne.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="send-2">
+                    <div class="sender">
+                        <div class="logo-sender">
+                            <img src="./assets/ninja.png" alt="">
+                        </div>
+                    </div>
+                    <div class="sender">
+                        <div class="logo-sender">
+                            <img src="./assets/sicepat.png" alt="">
+                        </div>
+                    </div>
+                    <div class="sender">
+                        <div class="logo-sender">
+                            <img src="./assets/grab.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="send-3">
+                    <div class="sender">
+                        <div class="logo-sender">
+                            <img src="./assets/gosend.png" alt="">
+                        </div>
+                    </div>
+                    <div class="sender">
+                        <div class="logo-sender">
+                            <img src="./assets/pos.png" alt="">
+                        </div>
+                    </div>
+                    <div class="sender">
+                        <div class="logo-sender">
+                            <img src="./assets/anteraja.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="follow">
+                <h1>Ikuti Kami</h1>
+                <div class="logo-sosmed">
+                    <img src="./assets/Facebook.png" alt="" style="width: 27px; margin-right: 5px;">
+                    <p>Facebook</p>
+                </div>
+                <div class="logo-sosmed">
+                    <img src="./assets/Twitter.png" alt="" style="width: 27px; margin-right: 5px;">
+                    <p>Twitter</p>
+                </div>
+                <div class="logo-sosmed">
+                    <img src="./assets/Tiktok.png" alt="" style="width: 27px; margin-right: 5px;">
+                    <p>Tiktok</p>
+                </div>
+                <div class="logo-sosmed">
+                    <img src="./assets/ig.png" alt="" style="width: 27px; margin-right: 5px;">
+                    <p>Instagram</p>
+                </div>
+            </div>
+        </section>
+        <div class="copywrite">
+            <p>Rama Kamandaka</p>
+            <p>Copywrite 2024</p>
+        </div>
+    </footer>
 
 
-    <script src="/javascript/script.js"></script>
+    <!-- FOOTER END -->
+
+    <script>feather.replace();</script>
+    <script src="./javascript/script.js"></script>
 </body>
 
 </html>
